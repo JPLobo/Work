@@ -14,6 +14,7 @@ divisor = input.nextInt();
 answer1 = dividend/divisor;
 answer = dividend%divisor;
 System.out.println("Your answer is" + answer1 +"r" + answer );
+input.close();
 	}
 
 }
