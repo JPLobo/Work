@@ -16,7 +16,7 @@ System.out.println("Your age:" + age);
 System.out.println("Years until you can vote: " + timeleft);
 sss = ssn % 10000;
 System.out.println("Last digits of your SSN number: "+ sss);
-
+input.close();
 	}
 
 }
