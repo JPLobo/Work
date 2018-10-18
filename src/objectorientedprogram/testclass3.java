@@ -16,9 +16,7 @@ public class testclass3 {
 		System.out.println( "How much sand can you move per hour?");
 		double rate = input.nextDouble();
 		double volume = length * width * depth;
-		double time = volume / rate;
-	bob.set2(length, width, rate, depth , volume, time);
-		
+		double time = volume / rate;		
 	}
 
 }
