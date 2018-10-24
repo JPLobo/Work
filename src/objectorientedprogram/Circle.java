@@ -26,5 +26,7 @@ public class Circle {
 
 	public void setRadius(double change) {
 		radius = radius * 1.1;
+
 	}
 }
+
