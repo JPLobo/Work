@@ -3,6 +3,9 @@ package objectorientedprogram;
 public class Circle {
 	private double radius;
 
+	public Circle() {
+		
+	}
 	public Circle(double radius1) {
 		radius = radius1;
 	}
