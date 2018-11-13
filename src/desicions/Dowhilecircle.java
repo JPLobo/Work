@@ -5,21 +5,14 @@ import java.util.Scanner;
 public class Dowhilecircle {
 	private double radius;
 	Scanner input = new Scanner(System.in);
+
 	public Dowhilecircle() {
-		
+
 	}
-	public Dowhilecircle (double radius1) {
-		int x = 0;
-		int g = 0;
-		System.out.println("Enter you radius");
-		radius = input.nextDouble();
-		
-			
-				
-			
-			
-		
-		
+
+	public Dowhilecircle(double radius1) {
+		radius = radius1;
+
 	}
 
 	public double returnRadius() {
@@ -37,7 +30,7 @@ public class Dowhilecircle {
 	}
 
 	public void setRadius(double change) {
-		radius = radius * 1.1;
+		radius = radius;
 
 	}
 }
