@@ -6,7 +6,7 @@ public class Coinflip {public static void main(String [] args){
 int g= 0;
 int h = 0;
 int y = 0;
-Random x = new Random ();
+Random x = new Random (57643);
 int min = 1;
 int max = 2;
 int randomNum = min + x.nextInt(max-min + 1);
