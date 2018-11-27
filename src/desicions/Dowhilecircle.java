@@ -1,13 +1,18 @@
-package objectorientedprogram;
+package desicions;
 
-public class Circle {
+import java.util.Scanner;
+
+public class Dowhilecircle {
 	private double radius;
+	Scanner input = new Scanner(System.in);
 
-	public Circle() {
-		
+	public Dowhilecircle() {
+
 	}
-	public Circle(double radius1) {
+
+	public Dowhilecircle(double radius1) {
 		radius = radius1;
+
 	}
 
 	public double returnRadius() {
@@ -25,8 +30,7 @@ public class Circle {
 	}
 
 	public void setRadius(double change) {
-		radius = radius * 1.1;
+		radius = radius;
 
 	}
 }
-
