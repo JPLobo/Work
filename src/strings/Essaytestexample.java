@@ -9,10 +9,10 @@ public class Essaytestexample {
 		
 	}
 	public void setname(String x) {
-		text = x;
+		name = x;
 	}
 	public void settext(String y) {
-		name = y;
+		text = y;
 	}
 	public String authorsname () {
 		String bill = name.substring(name.indexOf(" "), name.length());
@@ -29,11 +29,23 @@ public class Essaytestexample {
 		else {
 			return false;
 		}
-		
+	}
+		public int words() {
+			int word = 1;
+			for(int i = 0; i<text.length(); i++) {
+				if(text.charAt(i) ==' ') {
+					word++;
+					
+				}
+				
+			}
+			return word;	
+				
+		}
 			
 		}
 			
-	}
+	
 	
 	
 	
