@@ -13,16 +13,31 @@ public class Passwordtestclass {
 		while (finished == false) {
 		System.out.println("Enter your password in this format: Lastname:password");
 		x = input.nextLine();
-		x= x.substring(x.indexOf(":") + 1);
+		if (x.charAt(0) >= '0' && x.charAt(0) <= '9') {
 		counter1++;
+			finished = false;
+			}
+		else {
+			x= x.substring(x.indexOf(":") + 1);
+				counter1++;
 		finished = bob.setpass(x);
+		if (finished == false) {
+			System.out.println("invalid password");
 		}
+		}
+		}
+		
 		while ( sexbyeden == false) {
 		System.out.println("Please confirm your password");
 		y= input.nextLine();
 		counter2++;
 		sexbyeden = bob.match(y);
+		if (sexbyeden == false) {
+			System.out.println("invalid password");
 		}
+		}
+		System.out.println("Password entered " + counter1 + " times");
+		System.out.println("Password confirmed " + counter2 + " times");
 		
 		
 	}
