@@ -9,18 +9,18 @@ public class Santatestclass {
 		int age = 0;
 		String name = "johnwick";
 		boolean record = false;
-		boolean [] counter = new boolean[100000];
+		String [] names = new String [100000];
 		Santaclass bob = new Santaclass();
 		for (x = 0; x< 100000; x++) {
 			bob.fortnite(age,name,record);
 			age = input.nextInt();
 			name= input.nextLine();
 			record = input.nextBoolean();
+			names[x] = name;
 			if (bob.employable() == true) {
-				counter[x] = true;
+				System.out.println(names[x]);
 			}
-			else {
-				counter [x] = false;
+			
 			}
 			
 			
