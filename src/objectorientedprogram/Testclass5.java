@@ -2,7 +2,7 @@ package objectorientedprogram;
 
 public class Testclass5 {
 	public static void main(String [] args){
-		Circle bob = new Circle(10.0);
+		Circle bob = new Circle(10);
 	bob.returnRadius();
 		bob.circumfrence();
 		bob.area();
