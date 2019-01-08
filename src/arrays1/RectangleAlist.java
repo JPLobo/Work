@@ -24,11 +24,12 @@ for (int j = 0; j< recs.size(); j++) {
 	recs.add(new Rectangle(width, length));
 	
 }
-for( int g =recs.size(); g>0; g-- ) {
+for( int g =recs.size(); g>=0; g-- ) {
 	Rectangle are = recs.get(g);
 	System.out.println(are.area());
 }
-
+Rectangle first = recs.remove(0);
+Rectangle Last = recs.remove(recs.size()-1);
 
 
 }
