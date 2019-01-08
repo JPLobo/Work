@@ -17,7 +17,7 @@ public class RectangleAlist {
 		
 		Scanner input = new Scanner(System.in);
 		
-ArrayList <Rectangle> recs = new ArrayList<Rectangle>();
+ArrayList <Rectangle> recs = new ArrayList<Rectangle>(400);
 for (int j = 0; j< recs.size(); j++) {
 	int width =  min + x.nextInt(max-min + 1);
 	 int length=min + x.nextInt(max-min + 1);
