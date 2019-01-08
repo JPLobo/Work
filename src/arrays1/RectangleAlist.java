@@ -11,8 +11,7 @@ public class RectangleAlist {
 	public static void main(String[] args) {
 		int min =50;
 		int max = 70;
-		int num = 0;
-		int num2 = 0;
+		
 		Random x = new Random ();
 		
 		Scanner input = new Scanner(System.in);
