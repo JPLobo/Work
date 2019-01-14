@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class Foreachloopactivity1 {
 	public static void main(String [] args){
-		String [] students = new String [20];
+		int[] students = new int [20];
 	
-
+int sum = 0;
 	Scanner input = new Scanner(System.in);
 
-	for (int x = 0; x< 20; x++ ) {
+	for (int x : students ) {
 		
-		System.out.println("Enter your friends names!");
-			students [x] = input.nextLine();
+		System.out.println("Enter your students age");
+			students [x] = input.nextInt();
 	
 	}
-	for (int j = students.length- 1; j >=0; j--) {
-		System.out.println(students[j]);
+	for (int j : students) {
+		sum = sum + j;
 	}
+	System.out.println(sum);
 }
 }
