@@ -1,41 +1,41 @@
 package objectorientedprogram;
 
 public class Rectangle {
-	private double length = -99.0;
-	private double width = -99;
+	private int length = -99;
+	private int width = -99;
 
 	public Rectangle() {
 
 	}
 
-	public Rectangle(double length1, double width2) {
+	public Rectangle(int length1, int width2) {
 		length = length1;
 		width = width2;
 	}
 
-	public double returnLength() {
+	public int returnLength() {
 		return length;
 	}
 
-	public double returnWidth() {
+	public int returnWidth() {
 		return width;
 	}
 
-	public double area() {
-		double area = length * width;
+	public int area() {
+		int area = length * width;
 		return area;
 	}
 
-	public double perimeter() {
-		double perimeter = (length + width) * 2;
+	public int perimeter() {
+		int perimeter = (length + width) * 2;
 		return perimeter;
 	}
 
-	public void setLength(double xlength) {
+	public void setLength(int xlength) {
 		length = xlength;
 	}
 
-	public void setWidth(double xwidth) {
+	public void setWidth(int xwidth) {
 		width = xwidth;
 	}
 }

@@ -1,12 +1,12 @@
 package objectorientedprogram;
 
 public class Circle {
-	private double radius;
+	private int radius;
 
 	public Circle() {
 		
 	}
-	public Circle(double radius1) {
+	public Circle(int radius1) {
 		radius = radius1;
 	}
 
@@ -24,8 +24,8 @@ public class Circle {
 		return area;
 	}
 
-	public void setRadius(double change) {
-		radius = radius * 1.1;
+	public void setRadius(int change) {
+		radius = radius * 2;
 
 	}
 }
