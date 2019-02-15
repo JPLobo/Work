@@ -12,7 +12,7 @@ public class searchingTimes {
 		int min = 0;
 		int counter = 0;
 		int gamer = 0;
-		int max = 1500;
+		int max = 499;
 		for(int j =0; j<scores.length; j ++) {
 			scores [j] = (min + x.nextInt(max - min + 1));
 			}
