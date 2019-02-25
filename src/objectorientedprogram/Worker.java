@@ -1,9 +1,9 @@
 package objectorientedprogram;
+public class Worker implements Comparable <Worker>{
 
-public class Worker {
 	private int hours;
 	private double rate;
-
+	
 	//constructor(s)
 	public Worker(){
 	hours = 40;
@@ -37,6 +37,15 @@ public class Worker {
 
 	public void raise(double amount){
 			rate = rate + amount;
+	}
+	public int compareTo(Worker xperson) {
+		if(Math.abs(rate-xperson.getRate())<.0001) {
+			return 0;
+		}
+		if(rate<xperson.getRate()) {
+			return -1;
+		}
+		return 1;
 	}
 }
 
