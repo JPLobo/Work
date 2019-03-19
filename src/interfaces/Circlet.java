@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Circlet
+public class Circlet implements Shape
 {
     private double radius;
     

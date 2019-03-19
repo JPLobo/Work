@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Rect
+public class Rect implements Shape
 {
     private double length;
     private double width;
