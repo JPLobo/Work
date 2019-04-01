@@ -21,9 +21,21 @@ public class Magpie {
 	public String getResponse(String statement)
 	{
 		String response = "";
-		if (statement.indexOf("no") >= 0)
+		statement.replaceAll(" ", "");
+		if (statement.length() == 0) {
+			response = "Gahh what the heck says something!";
+		}
+		else if (statement.indexOf("trackandfield") >= 0) {
+			response = "I love track and field!";
+		}
+			
+		else	if (statement.indexOf("no") >= 0)
 		{
 			response = "Why so negative?";
+		}
+		else if(statement.indexOf("dog") >=0
+				|| statement.indexOf("cat") >=0) {
+			response = "Tell me more about your pets.";
 		}
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
