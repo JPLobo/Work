@@ -55,6 +55,7 @@ public class Magpie4
 			{
 				response = transformYouMeStatement(statement);
 			}
+			
 			else
 			{
 				response = getRandomResponse();
