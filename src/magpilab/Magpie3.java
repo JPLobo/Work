@@ -26,6 +26,10 @@ public class Magpie3
 		{
 			response = "Say something, please.";
 		}
+		else if(statement.indexOf("dog") >=0
+				|| statement.indexOf("cat") >=0) {
+			response = "Tell me more about your pets.";
+		}
 		else if (findKeyword(statement, "no") >= 0)
 		{
 			response = "Why so negative?";
@@ -96,6 +100,7 @@ public class Magpie3
 					&& ((after.compareTo("a") < 0) || (after
 							.compareTo("z") > 0)))
 			{
+			
 				return psn;
 			}
 

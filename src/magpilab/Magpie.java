@@ -23,7 +23,7 @@ public class Magpie {
 		String response = "";
 		statement.replaceAll(" ", "");
 		if (statement.length() == 0) {
-			response = "Gahh what the heck says something!";
+			response = "Gahh what the heck say something!";
 		}
 		else if (statement.indexOf("trackandfield") >= 0) {
 			response = "I love track and field!";
