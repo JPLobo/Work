@@ -10,7 +10,7 @@ public IRectangle () {
 	super.setside4(10);
 }
 public IRectangle (double l, double w) {
-	super(35, 20 ,35, 20);
+	super();
 	super.setside1(l);
 	super.setside2(w);
 	super.setside3(l);
