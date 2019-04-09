@@ -3,12 +3,14 @@ package inheritance;
 public class IRectangle extends Quad{
 
 public IRectangle () {
+	super();
 	super.setside1(5);
 	super.setside2(10);
 	super.setside3(5);
 	super.setside4(10);
 }
 public IRectangle (double l, double w) {
+	super(35, 20 ,35, 20);
 	super.setside1(l);
 	super.setside2(w);
 	super.setside3(l);
