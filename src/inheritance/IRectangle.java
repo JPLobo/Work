@@ -1,6 +1,6 @@
 package inheritance;
 
-public class IRectangle extends Quad{
+public class IRectangle extends Parallelogram{
 
 public IRectangle () {
 	super();
