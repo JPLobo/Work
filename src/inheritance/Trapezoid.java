@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Trapezoid extends Quad{
+public class Trapezoid extends Quad implements Geo{
 	private double height;
 	public Trapezoid () {
 		super();
@@ -21,7 +21,6 @@ public class Trapezoid extends Quad{
 	public double Area() {
 		return ((getside2()+getside4())/2)* height;
 	}
-public double Perimeter() {
-	return getside1() + getside2() + getside3() + getside4();
-}
+
+
 }

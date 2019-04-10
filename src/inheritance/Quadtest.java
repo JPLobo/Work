@@ -9,6 +9,8 @@ public static void main (String[]args) {
 	IRectangle boxy = new IRectangle (10, 20);
 	System.out.println(boxy.perimeter());
 	System.out.println(boxy.Area());
-Trapezoid xd = new Trapezoid();	
+Trapezoid xd = new Trapezoid();
+Square john = new Square(5);
+System.out.println(john.Area());
 }
 }

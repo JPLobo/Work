@@ -1,6 +1,6 @@
 package inheritance;
 
-public class IRectangle extends Parallelogram{
+public class IRectangle extends Parallelogram implements Geo{
 
 public IRectangle () {
 	super();
@@ -16,7 +16,5 @@ public IRectangle (double l, double w) {
 	super.setside3(l);
 	super.setside4(w);
 }
-public double Area() {
-	return super.getside1() * super.getside2();
-}
+
 }

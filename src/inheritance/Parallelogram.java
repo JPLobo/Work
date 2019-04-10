@@ -13,7 +13,5 @@ private double height;
 public double Area() {
 	return getside1()*height;
 }
-public double Perimeter() {
-	return getside1()+ getside2()+ getside3() + getside4();
-}
+
 }
