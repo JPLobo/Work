@@ -13,5 +13,7 @@ private double height;
 public double Area() {
 	return getside1()*height;
 }
-
+public String tostring () {
+	return "Parallelogram:" + super.toString() + " height " + height;
+}
 }

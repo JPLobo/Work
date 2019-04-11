@@ -46,4 +46,7 @@ public double getside4 () {
 public double perimeter () {
 	return side1 + side2+ side3+ side4;
 }
+public String toString () {
+	return "Quadrilateral" + " side 1: " + side1 + " side 2: " + side2 + " side 3: " + side3 + " side 4: " + side4;
+}
 }
