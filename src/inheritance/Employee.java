@@ -16,7 +16,7 @@ int max =40;
 	for (int i = 0; i< hours.length; i++) {
 		hours [i] = min + x.nextInt(max-min + 1);
 		}
-	num = id;
+	num = id++;
 	}
 public void modifyrate(double change) {
 }}
